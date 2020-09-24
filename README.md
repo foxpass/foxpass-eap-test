@@ -7,7 +7,7 @@ Edit the ttls-pap.conf file in the root directory of this repo to use your usern
 
 ## Building a container
 
-From the root directory of this repo, run these commands to build a Docker image, create a container from that image, and run it:
+From the root directory of this repo, run these commands to build a Docker image, and run it:
 
 ```bash
 docker build -t eapol_test .
