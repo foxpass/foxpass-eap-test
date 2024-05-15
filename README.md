@@ -10,7 +10,7 @@ From the root directory of this repo run the following commands to build the Doc
 docker build -t eapol_test .
 ```
 
-## To run EAP-TTLS
+## To run EAP-TTLS (NOTE: This is functional on a linux box, may not work for Mac)
 
 modify the following ttls-pap.conf file in the root directory of this repo:
 
