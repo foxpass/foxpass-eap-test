@@ -61,5 +61,5 @@ Where `<IP>` is the IP of the RADIUS server you are connecting to and `<SECRET>`
 Now run the following:
 
 ```bash
-docker run -v /path/to/eapol-test:/opt -it eapol_test /wpa_supplicant-2.8/wpa_supplicant/eapol_test -a 44.194.175.80 -s <secret> -c /opt/tls.conf
+docker run -v /path/to/eapol-test:/opt -it eapol_test /wpa_supplicant-2.8/wpa_supplicant/eapol_test -a <IP> -s <secret> -c /opt/tls.conf
 ```
